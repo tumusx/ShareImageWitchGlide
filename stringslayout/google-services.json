@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "633222589419",
+    "project_id": "mobile-eab04",
+    "storage_bucket": "mobile-eab04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633222589419:android:4399d8b657575f3d3187ae",
+        "android_client_info": {
+          "package_name": "murillo.silva.learningapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633222589419-bsc8b3mcqojuv6gia9q1uha3idu551ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEBDz_ASCVS6rT1EoT_CRsu4knxoq8HfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633222589419-bsc8b3mcqojuv6gia9q1uha3idu551ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633222589419:android:ac37b344ed5f46fa3187ae",
+        "android_client_info": {
+          "package_name": "murillo.silva.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633222589419-bsc8b3mcqojuv6gia9q1uha3idu551ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEBDz_ASCVS6rT1EoT_CRsu4knxoq8HfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633222589419-bsc8b3mcqojuv6gia9q1uha3idu551ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

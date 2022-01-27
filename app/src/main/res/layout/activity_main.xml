@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagemDownload"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/buttonDownload"
+        android:text="clica nessa porra"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/common_google_signin_btn_text_light_focused"
+        app:layout_constraintEnd_toEndOf="@id/imagemDownload"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@id/imagemDownload"
+        app:layout_constraintTop_toBottomOf="@id/imagemDownload" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDownload"
+        app:layout_constraintStart_toStartOf="@+id/buttonDownload"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDownload" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
